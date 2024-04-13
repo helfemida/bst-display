@@ -1,0 +1,32 @@
+/* styles.css */
+.bst-node {
+    width: 30px;
+    height: 30px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    border: 2px solid #92d3ff;
+    position: relative;
+}
+
+.bst-connector {
+    position: absolute;
+    border-left: 2px solid #92d3ff;
+    height: 20px;
+    width: 0;
+    top: 50%;
+    left: 50%;
+    transform-origin: left;
+}
+
+.bst-left {
+    transform: translate(-50%, -50%) rotate(135deg);
+}
+
+.bst-right {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
